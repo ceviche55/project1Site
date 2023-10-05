@@ -1,0 +1,37 @@
+:root {
+  --light-green: #7fef82ff;
+  --jordy-blue: #82acefff;
+  --sunglow: #ffcf70ff;
+  --rosy-brown: #d1a59eff;
+  --light-red: #fb747bff;
+  --fg: #201e1fff;
+  --bg: #ede0d4ff;
+}
+body {
+  background: var(--bg);
+}
+.colorBar {
+  background-color: red;
+  height: 20px; /* Set the height of the bar */
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.stupidBar {
+  display: flex;
+  margin: 20px 0px;
+  background-color: lightblue;
+  left: 0;
+  width: 110%;
+  justify-content: center;
+}
+
+.graphic {
+  height: 100px;
+}
+
+h2 {
+  margin: 20px auto;
+}
